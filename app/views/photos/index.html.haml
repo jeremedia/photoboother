@@ -1,0 +1,15 @@
+#container
+  #left
+    #big_photo
+      =#image_tag Photo.all.last.file.big.url, id:"big_photo_image"
+      #photo_loading_message="New Photo Loading..."
+      #photo_holder{style:"background-image: url(#{Photo.all.last.file.big.url});"}
+    #email_field
+      =form_for PhotoEmail.new, remote:true do |f|
+        =f.text_field :email, placeholder:"Email Address"
+        =f.hidden_field :photo_id
+        =f.submit "Send Photo"
+  #right
+    %ul#list
+      -Photo.all.reverse.each do |photo|
+        %li.photo_thumb{id:dom_id(photo)}=image_tag(photo.file.thumb.url, data:{"big_url"=>photo.file.big.url, "thumb_url"=>photo.file.thumb.url, "id"=>dom_id(photo)} )

@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>AMApplicationBuild</key>
+	<string>419</string>
+	<key>AMApplicationVersion</key>
+	<string>2.6</string>
+	<key>AMDocumentVersion</key>
+	<string>2</string>
+	<key>actions</key>
+	<array>
+		<dict>
+			<key>action</key>
+			<dict>
+				<key>AMActionVersion</key>
+				<string>v.10.1</string>
+				<key>AMApplication</key>
+				<array>
+					<string>Image Capture</string>
+				</array>
+				<key>AMParameterProperties</key>
+				<dict>
+					<key>deleteAfterSuccessfulDownload</key>
+					<dict/>
+					<key>downloadsDirectory</key>
+					<dict>
+						<key>isPathPopUp</key>
+						<true/>
+						<key>selectedVariableUUID</key>
+						<string>06B74A91-EEBD-487B-A1A9-2BFEF219F64E</string>
+						<key>variableUUIDsInMenu</key>
+						<array>
+							<string>06B74A91-EEBD-487B-A1A9-2BFEF219F64E</string>
+						</array>
+					</dict>
+					<key>name</key>
+					<dict/>
+					<key>status</key>
+					<dict/>
+				</dict>
+				<key>AMProvides</key>
+				<dict>
+					<key>Container</key>
+					<string>List</string>
+					<key>Types</key>
+					<array>
+						<string>com.apple.cocoa.path</string>
+					</array>
+				</dict>
+				<key>ActionBundlePath</key>
+				<string>/System/Library/Automator/Take Picture.action</string>
+				<key>ActionName</key>
+				<string>Take Picture</string>
+				<key>ActionParameters</key>
+				<dict>
+					<key>deleteAfterSuccessfulDownload</key>
+					<true/>
+					<key>downloadsDirectory</key>
+					<string></string>
+					<key>name</key>
+					<string>No supported cameras found</string>
+					<key>status</key>
+					<string></string>
+				</dict>
+				<key>BundleIdentifier</key>
+				<string>com.apple.Automator.TakePicture</string>
+				<key>CFBundleVersion</key>
+				<string>10.1</string>
+				<key>CanShowSelectedItemsWhenRun</key>
+				<true/>
+				<key>CanShowWhenRun</key>
+				<true/>
+				<key>Category</key>
+				<array>
+					<string>AMCategoryPhotos</string>
+				</array>
+				<key>Class Name</key>
+				<string>TakePicture</string>
+				<key>Keywords</key>
+				<array>
+					<string>Camera</string>
+					<string>Take</string>
+					<string>Picture</string>
+					<string>Image</string>
+					<string>Photo</string>
+				</array>
+				<key>OutputUUID</key>
+				<string>669110C6-84AF-469A-B9A7-E6F09976C7F5</string>
+				<key>UUID</key>
+				<string>60940EBE-D877-4EB7-B58B-BE8BB5DAD32C</string>
+				<key>UnlocalizedApplications</key>
+				<array>
+					<string>Image Capture</string>
+				</array>
+				<key>arguments</key>
+				<dict>
+					<key>0</key>
+					<dict>
+						<key>default value</key>
+						<string></string>
+						<key>name</key>
+						<string>status</string>
+						<key>required</key>
+						<string>0</string>
+						<key>type</key>
+						<string>0</string>
+						<key>uuid</key>
+						<string>0</string>
+					</dict>
+					<key>1</key>
+					<dict>
+						<key>default value</key>
+						<string>~/Pictures</string>
+						<key>name</key>
+						<string>downloadsDirectory</string>
+						<key>required</key>
+						<string>0</string>
+						<key>type</key>
+						<string>0</string>
+						<key>uuid</key>
+						<string>1</string>
+					</dict>
+					<key>2</key>
+					<dict>
+						<key>default value</key>
+						<true/>
+						<key>name</key>
+						<string>deleteAfterSuccessfulDownload</string>
+						<key>required</key>
+						<string>0</string>
+						<key>type</key>
+						<string>0</string>
+						<key>uuid</key>
+						<string>2</string>
+					</dict>
+					<key>3</key>
+					<dict>
+						<key>default value</key>
+						<string>No supported cameras found</string>
+						<key>name</key>
+						<string>name</string>
+						<key>required</key>
+						<string>0</string>
+						<key>type</key>
+						<string>0</string>
+						<key>uuid</key>
+						<string>3</string>
+					</dict>
+				</dict>
+				<key>conversionLabel</key>
+				<integer>0</integer>
+				<key>isViewVisible</key>
+				<true/>
+				<key>location</key>
+				<string>597.000000:188.000000</string>
+				<key>nibPath</key>
+				<string>/System/Library/Automator/Take Picture.action/Contents/Resources/Base.lproj/main.nib</string>
+			</dict>
+			<key>isViewVisible</key>
+			<true/>
+		</dict>
+	</array>
+	<key>connectors</key>
+	<dict/>
+	<key>variables</key>
+	<array>
+		<dict>
+			<key>UUID</key>
+			<string>06B74A91-EEBD-487B-A1A9-2BFEF219F64E</string>
+			<key>identifier</key>
+			<string>com.apple.Automator.Variable.Path</string>
+			<key>name</key>
+			<string>path</string>
+			<key>value</key>
+			<string>~/Desktop</string>
+		</dict>
+	</array>
+	<key>workflowMetaData</key>
+	<dict>
+		<key>workflowTypeIdentifier</key>
+		<string>com.apple.Automator.workflow</string>
+	</dict>
+</dict>
+</plist>

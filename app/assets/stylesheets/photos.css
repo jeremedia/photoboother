@@ -1,0 +1,119 @@
+/* @override 
+	http://0.0.0.0:3000/assets/photos.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1
+	http://localhost:3000/assets/photos.self-648d028a4c5071c7ed4d6f2018593cb42670474421f064bf2b474ff3fd7eee51.css?body=1
+	http://localhost:3000/assets/photos.self-209af828da3fbfe76178635353cf2ee07dd9138f6e886d7e22ae8f8b105a6f02.css?body=1
+	http://192.168.0.152:3000/assets/photos.self-214f4481795f2ff8c072627dc7b1e666340be59228aee66a4c775687d9f23523.css?body=1
+	http://192.168.0.152:3000/assets/photos.self-3c7b393312e2cc336399841399cb061a79000c147071976f17cb2aeb70129100.css?body=1 */
+	
+	div#container {
+		position: absolute;
+		top: 0;
+		left: 0;
+		right: 0;
+		bottom: 0;
+		overflow: hidden;
+		background-color: #2a2a2a;
+	}
+	
+	div#left {
+		position: absolute;
+		top: 0;
+		left: 0;
+		right: 200px;
+		bottom: 0px;
+		overflow: hidden;
+	}
+	
+	div#big_photo{
+		position: absolute;
+		top: 0;
+		right: 0;
+		bottom: 100px;
+		left: 0;
+		overflow: hidden;
+	}
+	
+	
+	div#email_field{
+		position: absolute;
+		right: 0;
+		bottom: 0;
+		left: 0;
+		height: 50px;
+		padding: 20px;
+	}
+	
+	div#right {
+		position: absolute;
+		top: 0;
+		bottom: 0;
+		right: 0;
+		width: 200px;
+		overflow: auto;
+		overflow-x: hidden;
+	}
+	
+	ul#list {
+		padding: 0;
+		margin: 0;
+	}
+	
+	ul#list li{
+		list-style: none;
+		
+	}
+	
+
+	
+	ul#list li img{
+		display: block;
+		cursor: pointer;
+		width: 100%;
+		border: 1px solid #525252;
+		margin-bottom: 10px;
+	}
+	
+	#email_field input[type="text"] {
+		font-size: 24px;
+		padding: 5px;
+		border-radius: 5px;
+		border: 1px solid #a2a2a2;
+		width: 75%;
+	}
+	
+	#new_photo_email input[type="submit"] {
+		font-size: 24px;
+		padding: 5px;
+		
+	}
+	
+	form#new_photo_email.new_photo_email {
+		text-align: center;
+	}
+	
+	#big_photo_image {
+		width: 100%;
+	}
+	#photo_holder{
+		background: url(/uploads/photo/file/30/big_IMG_1939.jpg) center center no-repeat #292a29;
+		background-size: contain;
+		position: absolute;
+		top: 20px;
+		right: 20px;
+		bottom: 20px;
+		left: 20px;
+	}
+	div#photo_loading_message {
+		font-size: 42px;
+		color: #ffffff;
+		text-align: center;
+		font-weight: bold;
+		position: absolute;
+		top: 0;
+		right: 0;
+		bottom: 0;
+		left: 0;
+		padding-top: 200px;
+	}
+	
+	

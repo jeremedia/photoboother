@@ -1,0 +1,823 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>AMApplicationBuild</key>
+	<string>419</string>
+	<key>AMApplicationVersion</key>
+	<string>2.6</string>
+	<key>AMDocumentVersion</key>
+	<string>2</string>
+	<key>actions</key>
+	<array>
+		<dict>
+			<key>action</key>
+			<dict>
+				<key>AMAccepts</key>
+				<dict>
+					<key>Container</key>
+					<string>List</string>
+					<key>Optional</key>
+					<false/>
+					<key>Types</key>
+					<array>
+						<string>com.apple.applescript.alias-object</string>
+					</array>
+				</dict>
+				<key>AMActionVersion</key>
+				<string>2.0</string>
+				<key>AMApplication</key>
+				<array>
+					<string>Aperture</string>
+				</array>
+				<key>AMParameterProperties</key>
+				<dict>
+					<key>chosenProject</key>
+					<dict/>
+					<key>importDestination</key>
+					<dict/>
+					<key>newProjectName</key>
+					<dict/>
+					<key>shouldDelete</key>
+					<dict/>
+					<key>shouldReference</key>
+					<dict/>
+				</dict>
+				<key>AMProvides</key>
+				<dict>
+					<key>Container</key>
+					<string>List</string>
+					<key>Types</key>
+					<array>
+						<string>com.apple.Aperture.image-object</string>
+					</array>
+				</dict>
+				<key>AMRequiredResources</key>
+				<array>
+					<dict>
+						<key>Display Name</key>
+						<string>Aperture</string>
+						<key>Resource</key>
+						<string>com.apple.Aperture</string>
+						<key>Type</key>
+						<string>application</string>
+						<key>Version</key>
+						<string>2.0</string>
+					</dict>
+				</array>
+				<key>ActionBundlePath</key>
+				<string>/Applications/Aperture.app/Contents/Library/Automator/Import Photos.action</string>
+				<key>ActionName</key>
+				<string>Import Photos</string>
+				<key>ActionParameters</key>
+				<dict>
+					<key>chosenProject</key>
+					<string>One Piece Fun</string>
+					<key>importDestination</key>
+					<integer>1</integer>
+					<key>newProjectName</key>
+					<string>Photobooth</string>
+					<key>shouldDelete</key>
+					<false/>
+					<key>shouldReference</key>
+					<true/>
+				</dict>
+				<key>BundleIdentifier</key>
+				<string>com.apple.Aperture.automator.ImportPhotos</string>
+				<key>CFBundleVersion</key>
+				<string>2.0</string>
+				<key>CanShowSelectedItemsWhenRun</key>
+				<false/>
+				<key>CanShowWhenRun</key>
+				<true/>
+				<key>Category</key>
+				<array>
+					<string>Photos</string>
+				</array>
+				<key>Class Name</key>
+				<string>AMAppleScriptAction</string>
+				<key>InputUUID</key>
+				<string>23D3A3F2-84DA-4788-A3B6-5CBD2B659467</string>
+				<key>Keywords</key>
+				<array/>
+				<key>OutputUUID</key>
+				<string>4E28629B-135B-46DD-8FD1-3AE94DE0412F</string>
+				<key>UUID</key>
+				<string>77BC075E-3D7F-48D7-871C-B4288E3B4233</string>
+				<key>UnlocalizedApplications</key>
+				<array>
+					<string>Aperture</string>
+				</array>
+				<key>arguments</key>
+				<dict>
+					<key>0</key>
+					<dict>
+						<key>default value</key>
+						<string></string>
+						<key>name</key>
+						<string>chosenProject</string>
+						<key>required</key>
+						<string>0</string>
+						<key>type</key>
+						<string>0</string>
+						<key>uuid</key>
+						<string>0</string>
+					</dict>
+					<key>1</key>
+					<dict>
+						<key>default value</key>
+						<string></string>
+						<key>name</key>
+						<string>newProjectName</string>
+						<key>required</key>
+						<string>0</string>
+						<key>type</key>
+						<string>0</string>
+						<key>uuid</key>
+						<string>1</string>
+					</dict>
+					<key>2</key>
+					<dict>
+						<key>default value</key>
+						<false/>
+						<key>name</key>
+						<string>shouldDelete</string>
+						<key>required</key>
+						<string>0</string>
+						<key>type</key>
+						<string>0</string>
+						<key>uuid</key>
+						<string>2</string>
+					</dict>
+					<key>3</key>
+					<dict>
+						<key>default value</key>
+						<integer>0</integer>
+						<key>name</key>
+						<string>importDestination</string>
+						<key>required</key>
+						<string>0</string>
+						<key>type</key>
+						<string>0</string>
+						<key>uuid</key>
+						<string>3</string>
+					</dict>
+					<key>4</key>
+					<dict>
+						<key>default value</key>
+						<false/>
+						<key>name</key>
+						<string>shouldReference</string>
+						<key>required</key>
+						<string>0</string>
+						<key>type</key>
+						<string>0</string>
+						<key>uuid</key>
+						<string>4</string>
+					</dict>
+				</dict>
+				<key>isViewVisible</key>
+				<true/>
+				<key>location</key>
+				<string>597.000000:170.000000</string>
+				<key>nibPath</key>
+				<string>/Applications/Aperture.app/Contents/Library/Automator/Import Photos.action/Contents/Resources/English.lproj/main.nib</string>
+			</dict>
+			<key>isViewVisible</key>
+			<true/>
+		</dict>
+		<dict>
+			<key>action</key>
+			<dict>
+				<key>AMAccepts</key>
+				<dict>
+					<key>Container</key>
+					<string>List</string>
+					<key>Optional</key>
+					<false/>
+					<key>Types</key>
+					<array>
+						<string>com.apple.Aperture.image-object</string>
+					</array>
+				</dict>
+				<key>AMActionVersion</key>
+				<string>3.0</string>
+				<key>AMApplication</key>
+				<array>
+					<string>Aperture</string>
+				</array>
+				<key>AMParameterProperties</key>
+				<dict>
+					<key>chosenSetting</key>
+					<dict/>
+					<key>lookupTable</key>
+					<dict/>
+					<key>replaceAdjustments</key>
+					<dict/>
+				</dict>
+				<key>AMProvides</key>
+				<dict>
+					<key>Container</key>
+					<string>List</string>
+					<key>Types</key>
+					<array>
+						<string>com.apple.Aperture.image-object</string>
+					</array>
+				</dict>
+				<key>AMRequiredResources</key>
+				<array>
+					<dict>
+						<key>Display Name</key>
+						<string>Aperture</string>
+						<key>Resource</key>
+						<string>com.apple.Aperture</string>
+						<key>Type</key>
+						<string>application</string>
+						<key>Version</key>
+						<string>3.0</string>
+					</dict>
+				</array>
+				<key>ActionBundlePath</key>
+				<string>/Applications/Aperture.app/Contents/Library/Automator/Apply Image Adjustment Preset.action</string>
+				<key>ActionName</key>
+				<string>Apply Image Adjustment Preset</string>
+				<key>ActionParameters</key>
+				<dict>
+					<key>chosenSetting</key>
+					<string>Photobooth2</string>
+					<key>lookupTable</key>
+					<array>
+						<string>VSCO Film Toolkit &gt; RESET VSCO FILM</string>
+						<string>1JshTjFzQ%aSMeMXN1HeoQ</string>
+						<string>VSCO Film Toolkit &gt; ----WHITE BALANCE----</string>
+						<string>+dYGCZQ%Q1eRP%Bbo5Rbxw</string>
+						<string>VSCO Film Toolkit &gt; WB - Daylight/Flash</string>
+						<string>asAwYReXSESxIraY0pgoww</string>
+						<string>VSCO Film Toolkit &gt; WB - Cloudy</string>
+						<string>ztQGUe%2SzqXeiZ05KzZtQ</string>
+						<string>VSCO Film Toolkit &gt; WB - Shade</string>
+						<string>7%CGY3l8TGOsBESEx4IN0g</string>
+						<string>VSCO Film Toolkit &gt; WB - Tungsten</string>
+						<string>OSp1cL6wTlOHnwo9geAfmg</string>
+						<string>VSCO Film Toolkit &gt; WB - Flourescent</string>
+						<string>Nvfi10z5T927aCeJtXLrEw</string>
+						<string>VSCO Film Toolkit &gt; ----OVERLAY CONTRAST----</string>
+						<string>UgEXJyErQUG2o7PsXJwvLw</string>
+						<string>VSCO Film Toolkit &gt; Overlay Contrast +</string>
+						<string>mv7VD4TcRfeeNyONK+it4A</string>
+						<string>VSCO Film Toolkit &gt; Overlay Contrast ++</string>
+						<string>Zp5B%6fUSZiihyz91qL81A</string>
+						<string>VSCO Film Toolkit &gt; Overlay Contrast +++</string>
+						<string>sWnfk5YAQH6rXSO2q0F3yQ</string>
+						<string>VSCO Film Toolkit &gt; ----ENHANCE----</string>
+						<string>%2yU31xaTM6pq3B+66vWgA</string>
+						<string>VSCO Film Toolkit &gt; Clarity +</string>
+						<string>qrqc4uCATy6M3a58Nhcgpg</string>
+						<string>VSCO Film Toolkit &gt; Clarity ++</string>
+						<string>boi7wuSAQFW7fBcH66sagw</string>
+						<string>VSCO Film Toolkit &gt; ----EXPOSURE----</string>
+						<string>AVjrww6oT1Sy2fRccb3eSw</string>
+						<string>VSCO Film Toolkit &gt; Black Level &amp; Exposure 0</string>
+						<string>yR5HMJeoQcGFyCHa1q8OAw</string>
+						<string>VSCO Film Toolkit &gt; Exp. Highlights Save</string>
+						<string>dUwgqt3HQC2NrPzW9+CzgQ</string>
+						<string>VSCO Film Toolkit &gt; ----HIGHLIGHTS/SHADOWS----</string>
+						<string>Ugvq8%Q8Q2GCVKFJs4b%qQ</string>
+						<string>VSCO Film Toolkit &gt; Shadows +</string>
+						<string>jWBNyacCR%G6eE%kkn7LQA</string>
+						<string>VSCO Film Toolkit &gt; Highlights +</string>
+						<string>c0jlKdv9SQKr9%lFGQXr7Q</string>
+						<string>VSCO Film Toolkit &gt; Whites Save</string>
+						<string>lLtVBGpoTyeWLAGDIa95%g</string>
+						<string>VSCO Film Toolkit &gt; Blacks Save</string>
+						<string>dA0Z6e38TNi9XwXmf1pS+w</string>
+						<string>VSCO Film Toolkit &gt; ----CURVES----</string>
+						<string>UX9WQPQjQKGIzhRc5oh4hA</string>
+						<string>VSCO Film Toolkit &gt; Curves Contrast +</string>
+						<string>RmhwxyXeR4iBsiasc60mnA</string>
+						<string>VSCO Film Toolkit &gt; Curves Contrast ++</string>
+						<string>73CgtQHEQAO3vz%TeVtduA</string>
+						<string>VSCO Film Toolkit &gt; Curves Contrast +++</string>
+						<string>BQ8GhpUDQsiOf1+NXehrIg</string>
+						<string>VSCO Film Toolkit &gt; Faded</string>
+						<string>+oN1tPblTpKS6lhddTyQOg</string>
+						<string>VSCO Film Toolkit &gt; Faded +</string>
+						<string>FiTFwfDSQkiEGFPUHx0alg</string>
+						<string>VSCO Film Toolkit &gt; Faded ++</string>
+						<string>A+x%0AhCQr2jY63+UWZZXg</string>
+						<string>VSCO Film Toolkit &gt; Faded Highlights</string>
+						<string>V0ijP1cJQYaEzsw3yxR%Og</string>
+						<string>VSCO Film Toolkit &gt; Faded Shadows</string>
+						<string>tnQ2dLnASV6doA2Tm9lAJA</string>
+						<string>VSCO Film Toolkit &gt; Faded Shadows +</string>
+						<string>xOtDILnyRqqdirt4+bnVig</string>
+						<string>VSCO Film Toolkit &gt; Faded/Contrast</string>
+						<string>2pKgYIMtRN2smWEWF+L%2w</string>
+						<string>VSCO Film Toolkit &gt; Faded/Contrast +</string>
+						<string>8ftvJATMRn6Nj55CMxqRqw</string>
+						<string>VSCO Film Toolkit &gt; Creamy Highlights</string>
+						<string>ZGJdWLCJSxufy0A2%uwE%A</string>
+						<string>VSCO Film Toolkit &gt; Cool Highlights</string>
+						<string>pbemMHfeRYeypaXWkyRyUw</string>
+						<string>VSCO Film Toolkit &gt; Cool Faded Shadows</string>
+						<string>OFeQF0DtSh+F2CdpHRr18A</string>
+						<string>VSCO Film Toolkit &gt; Warm Shadows</string>
+						<string>TyGjQtqZQkWaOmTFSq0Wzw</string>
+						<string>VSCO Film Toolkit &gt; Green Shadows</string>
+						<string>uCkxbQYXSZiQ884%EdM1bw</string>
+						<string>VSCO Film Toolkit &gt; Curves Green Tint Fix</string>
+						<string>NtfCG+TXS+qhfK8xh1YaQA</string>
+						<string>VSCO Film Toolkit &gt; ----LEVELS----</string>
+						<string>s005vaNJRpOMe33U3DJnyQ</string>
+						<string>VSCO Film Toolkit &gt; Levels Green Tint Fix</string>
+						<string>zw2FCWX%TlSdkC71l2RSCQ</string>
+						<string>VSCO Film Toolkit &gt; Warmer</string>
+						<string>6oCPRE4rQyuz71j2ZmR4GQ</string>
+						<string>VSCO Film Toolkit &gt; Cooler</string>
+						<string>crlw452xRzC8y0CxpvImew</string>
+						<string>VSCO Film Toolkit &gt; Levels Contrast +</string>
+						<string>%ZdDXZrBTs6nmBQKqZn4iA</string>
+						<string>VSCO Film Toolkit &gt; Levels Contrast ++</string>
+						<string>hd4PTSd0Th+zuCYa9mIdvA</string>
+						<string>VSCO Film Toolkit &gt; Levels Contrast +++</string>
+						<string>hH4jx2%LTHmRf27YpsiI0w</string>
+						<string>VSCO Film Toolkit &gt; Color Contrast</string>
+						<string>XVdU6pN+Rry3tZZcF%9voA</string>
+						<string>VSCO Film Toolkit &gt; Color Contrast 2</string>
+						<string>yChlZnQbRPGOB4Jaq4OZuA</string>
+						<string>VSCO Film Toolkit &gt; ----COLOR----</string>
+						<string>Bbhajm%VTs2vaVBina2Xuw</string>
+						<string>VSCO Film Toolkit &gt; Orange Skin Fix</string>
+						<string>8kMCggXzRTGymKt0KWaI3Q</string>
+						<string>VSCO Film Toolkit &gt; Orange Skin Fix +</string>
+						<string>nRqHFmZsS5i8U0iojnqO8w</string>
+						<string>VSCO Film Toolkit &gt; Orange Skin Fix ++</string>
+						<string>JjyMt46oQhq8u7fmzLOF%Q</string>
+						<string>VSCO Film Toolkit &gt; Darker Skies</string>
+						<string>IL0TODmGTfiBpVyRRY42Ew</string>
+						<string>VSCO Film Toolkit &gt; Darker Skies +</string>
+						<string>mhmJD6xUS0esp+9KSU1ptQ</string>
+						<string>VSCO Film Toolkit &gt; Darker Skies ++</string>
+						<string>np3NkpaaSqmmLI5U6nrHRw</string>
+						<string>VSCO Film Toolkit &gt; Greener Greens</string>
+						<string>ntUFRib3RZmluwCvJHaixw</string>
+						<string>VSCO Film Toolkit &gt; Greener Greens +</string>
+						<string>tlKjyIlBQTqshJl3uVfTKg</string>
+						<string>VSCO Film Toolkit &gt; ----VIGNETTING----</string>
+						<string>hLTRiARcRGCg1dHA3RS7xA</string>
+						<string>VSCO Film Toolkit &gt; Vignette +</string>
+						<string>58HVvFhTTcKM+zpDnPapUw</string>
+						<string>VSCO Film Toolkit &gt; Vignette ++</string>
+						<string>iXlSrO8rSGGmdDHL2RORvw</string>
+						<string>VSCO Film Toolkit &gt; Vignette +++</string>
+						<string>LhuhAvACTU+Ih5eSb8fx6w</string>
+						<string>VSCO Film Toolkit &gt; ----SATURATION----</string>
+						<string>xdBSCACfQtqqOREcTLJ0Sg</string>
+						<string>VSCO Film Toolkit &gt; Saturation -</string>
+						<string>sdUsVtSrTraCVDF5iufxfg</string>
+						<string>VSCO Film Toolkit &gt; Saturation - -</string>
+						<string>CEUlczRBT6i4E9wznqqGdg</string>
+						<string>VSCO Film Toolkit &gt; Saturation +</string>
+						<string>6tgABlvYSkGb77jv+kylzg</string>
+						<string>VSCO Film Toolkit &gt; Saturation ++</string>
+						<string>UqimZM2NTFWcr2DaHPphrg</string>
+						<string>Quick Fixes &gt; Auto Enhance</string>
+						<string>oR1RoJ6jTgajOF4+6KSvRQ</string>
+						<string>Quick Fixes &gt; Exposure (+1)</string>
+						<string>DbFUXEWlRJettl0Dih+8BQ</string>
+						<string>Quick Fixes &gt; Exposure (+2)</string>
+						<string>ZyzZ8ZsPRy6mwMiJ7MeX+g</string>
+						<string>Quick Fixes &gt; Exposure (-1)</string>
+						<string>ZBXdGXnfT1+Djvkjy5OTMg</string>
+						<string>Quick Fixes &gt; Exposure (-2)</string>
+						<string>FKXOILZDRJqsYwetaCNWHw</string>
+						<string>Quick Fixes &gt; Hold Highlights</string>
+						<string>wbMmRDxhRLKQaOXRZLL%Ig</string>
+						<string>Quick Fixes &gt; Brighten Shadows</string>
+						<string>zKWJkJvmTgCgZtEDmDOYiQ</string>
+						<string>Color &gt; Cross Process 1</string>
+						<string>qKsdKHF9TOqU2xuNn4jncg</string>
+						<string>Color &gt; Cross Process 2</string>
+						<string>CB+0LDO2R2SmNSjUoclhUA</string>
+						<string>Color &gt; Vintage</string>
+						<string>qzU8jGg9QVKKKSu8K2o1fQ</string>
+						<string>Color &gt; Toy Camera</string>
+						<string>sfufpl0WQYS9DObMZI2eZA</string>
+						<string>Color &gt; Punch</string>
+						<string>u2rUYpILQsOfC3ozwVrQtg</string>
+						<string>Color &gt; Intensify</string>
+						<string>i6uwZGd3RKiQqCtU%rjN5A</string>
+						<string>Color &gt; Sepia Tone (Low Contrast)</string>
+						<string>poL0U19OR6erEXbgZ+ckYQ</string>
+						<string>Color &gt; Sepia Tone (High Contrast)</string>
+						<string>CSAMtQ+wT9ixpjN%FFOcRA</string>
+						<string>Color &gt; Cyanotype</string>
+						<string>vdYjeiRZSWCKRmNwGM+NWg</string>
+						<string>White Balance &gt; Auto</string>
+						<string>LjIP9kCgRrqa0Y3DET%vEQ</string>
+						<string>White Balance &gt; Daylight</string>
+						<string>aeUqnDr9RlyrGbLGiNF3eA</string>
+						<string>White Balance &gt; Cloudy</string>
+						<string>DcA5W7MsT3Sk7Q76EEJURg</string>
+						<string>White Balance &gt; Shade</string>
+						<string>tjMRnzguRpWPmXgYXxthbQ</string>
+						<string>White Balance &gt; Tungsten</string>
+						<string>fV3Gd1KfRfqf%PYCCPCjtg</string>
+						<string>White Balance &gt; Fluorescent</string>
+						<string>GZXWI9TyQOOg3DDcAr14AA</string>
+						<string>White Balance &gt; Flash</string>
+						<string>kaPDZ2CeRX27bI4g9YjHNQ</string>
+						<string>Black &amp; White &gt; Red Filter</string>
+						<string>PH1VRJiyRomvXSir8swAFw</string>
+						<string>Black &amp; White &gt; Orange Filter</string>
+						<string>SVFsCIDaSbuaJ2Gi7+tGag</string>
+						<string>Black &amp; White &gt; Yellow Filter</string>
+						<string>u2ZT13fNRXW93uQkag0C6g</string>
+						<string>Black &amp; White &gt; Green Filter</string>
+						<string>jqXnSBHJRF+91sZQpQN4Bg</string>
+						<string>Black &amp; White &gt; Blue Filter</string>
+						<string>aLA3h8aSTbqsJQGuGf%NRQ</string>
+						<string>Black &amp; White &gt; Low Contrast (Grade 0)</string>
+						<string>KH21+5GdSImcMS823Gv8jA</string>
+						<string>Black &amp; White &gt; Higher Contrast (Grade 2)</string>
+						<string>eZWuQgOqRZaSWGDb+Df2HQ</string>
+						<string>Black &amp; White &gt; High Contrast (Grade 5)</string>
+						<string>u%a2uUwKQYaWwyH8nJ6RYg</string>
+						<string>Black &amp; White &gt; Infrared</string>
+						<string>VhDfxI2wS+Ka48P8o1tJTg</string>
+						<string>VSCO Film 01 &gt; ----B&amp;W----</string>
+						<string>Iml1MbBuTsOKsYnmgkCS7w</string>
+						<string>VSCO Film 01 &gt; (HOLD OPTION WHEN SWITCHING FROM COLOR TO BW)</string>
+						<string>BCAN4RkWQPStD1T9URsDcQ</string>
+						<string>VSCO Film 01 &gt; Kodak TRI-X 400</string>
+						<string>3xyakaPCTse8Qj774fJiIg</string>
+						<string>VSCO Film 01 &gt; Kodak TRI-X 400 +</string>
+						<string>fFCokaLkRZaqx82kIobv4g</string>
+						<string>VSCO Film 01 &gt; Kodak TRI-X 400 + 2</string>
+						<string>SAbyuv2nS6S97Ve0yFZCZg</string>
+						<string>VSCO Film 01 &gt; Kodak TRI-X 400 -</string>
+						<string>ZLIcsWiGRGy7qpStzDnjgw</string>
+						<string>VSCO Film 01 &gt; Kodak T-MAX 3200</string>
+						<string>0iyEFUbxQVaBr5rkr4OOOg</string>
+						<string>VSCO Film 01 &gt; Kodak T-MAX 3200 -</string>
+						<string>mEN5g6X6Tn2uqcxEDMR75g</string>
+						<string>VSCO Film 01 &gt; Kodak T-MAX 3200 +</string>
+						<string>58oeuto3Qke7Akhg+fSEXw</string>
+						<string>VSCO Film 01 &gt; Ilford HP5</string>
+						<string>yD+uPS9dSXua2jHt2cyvJQ</string>
+						<string>VSCO Film 01 &gt; Ilford HP5 +</string>
+						<string>8P9psZ4XTN+dPlbO%fx45Q</string>
+						<string>VSCO Film 01 &gt; Ilford HP5 -</string>
+						<string>XEz4jVaiTLeu8LkW6TJmgg</string>
+						<string>VSCO Film 01 &gt; ----COLOR----</string>
+						<string>qRgELDRRRaype6B9kguHhg</string>
+						<string>VSCO Film 01 &gt; Kodak Portra 160</string>
+						<string>TBsnW04cTA6UKHVm+BFu5w</string>
+						<string>VSCO Film 01 &gt; Kodak Portra 160 +</string>
+						<string>tnd6iToLRFq1IJqTRBj%lw</string>
+						<string>VSCO Film 01 &gt; Kodak Portra 160 -</string>
+						<string>+nUf4Ab6SkuWW1HejkFAZw</string>
+						<string>VSCO Film 01 &gt; Kodak Portra 400</string>
+						<string>gtaWrhwgS5uVZYrw13HRIw</string>
+						<string>VSCO Film 01 &gt; Kodak Portra 400 +</string>
+						<string>a0Qqau4%TT6Jfhe4ktiIjQ</string>
+						<string>VSCO Film 01 &gt; Kodak Portra 400 -</string>
+						<string>gQpDpI6%TwCzReKnxWyxig</string>
+						<string>VSCO Film 01 &gt; Kodak Portra 800</string>
+						<string>YxyURRDqT76yJJ5JxD9qTg</string>
+						<string>VSCO Film 01 &gt; Kodak Portra 800 +</string>
+						<string>DSqksZVJTE6F4zc4pSgGQA</string>
+						<string>VSCO Film 01 &gt; Kodak Portra 800 -</string>
+						<string>mdpxNIGcSCSoUAK29P+AIA</string>
+						<string>VSCO Film 01 &gt; Fuji 160C</string>
+						<string>t49gUtz0TemLMhp4uJWRmA</string>
+						<string>VSCO Film 01 &gt; Fuji 160C +</string>
+						<string>tuRLNsqZTqOGEO0+qDzVPQ</string>
+						<string>VSCO Film 01 &gt; Fuji 160C -</string>
+						<string>2qUXa2nPQ3yWirMZbTizfg</string>
+						<string>VSCO Film 01 &gt; Fuji 400H</string>
+						<string>clvvrRghTvq4VVqKyqOTJg</string>
+						<string>VSCO Film 01 &gt; Fuji 400H +</string>
+						<string>XPXVa1fwSHS6vfDhWqYELw</string>
+						<string>VSCO Film 01 &gt; Fuji 400H -</string>
+						<string>tETzwLQvTseoOncpJW2Q4A</string>
+						<string>VSCO Film 01 &gt; Fuji 800Z</string>
+						<string>%TRfWHJ2RBiodH4uaO8TLQ</string>
+						<string>VSCO Film 01 &gt; Fuji 800Z +</string>
+						<string>BSGGXBi5RyOzDl7%5qpWqA</string>
+						<string>VSCO Film 01 &gt; Fuji 800Z -</string>
+						<string>1QoOHCi7RbiuiSZuoZgyFw</string>
+						<string>VSCO Film 01 &gt; ----GRAIN----</string>
+						<string>xgUlqF+iSgaGOqPaDyFl6w</string>
+						<string>VSCO Film 01 &gt; Grain - None</string>
+						<string>8eJIEhY4QOGko3Tnj8jhog</string>
+						<string>VSCO Film 01 &gt; Grain - Kodak TRI-X 400</string>
+						<string>PByTSuMBQSCAFDCNy5%UOw</string>
+						<string>VSCO Film 01 &gt; Grain - Kodak T-MAX 3200</string>
+						<string>TnfY%eZ3SNWelNZfzzietA</string>
+						<string>VSCO Film 01 &gt; Grain - Illford HP5</string>
+						<string>CpPJI0aSQf2oQV7zZYz9Cg</string>
+						<string>VSCO Film 01 &gt; Grain - Kodak Portra 160</string>
+						<string>l1dJMH7bRU+yrTV8WCdB0Q</string>
+						<string>VSCO Film 01 &gt; Grain - Kodak Portra 400</string>
+						<string>evrgoFEkT9OovBmyayntQQ</string>
+						<string>VSCO Film 01 &gt; Grain - Kodak Portra 800</string>
+						<string>KFsNvfSdTgCrqBJqnT4ZEQ</string>
+						<string>VSCO Film 01 &gt; Grain - Fuji 160C</string>
+						<string>P55XdqURRbek6C%LJ3tZAA</string>
+						<string>VSCO Film 01 &gt; Grain - Fuji 400H</string>
+						<string>D9SAzoVrRxmhQbSqipOoyg</string>
+						<string>VSCO Film 01 &gt; Grain - Fuji 800Z</string>
+						<string>qZU8a52TQ6+FAM2BLvcQrw</string>
+						<string>Photobooth</string>
+						<string>AiBxSM60SmOAlqb9L26umQ</string>
+						<string>Photobooth2</string>
+						<string>bsn4Ct22SAux1aBy6A6QhQ</string>
+					</array>
+					<key>replaceAdjustments</key>
+					<true/>
+				</dict>
+				<key>BundleIdentifier</key>
+				<string>com.apple.Aperture.automator.ApplyImageAdjustmentPreset</string>
+				<key>CFBundleVersion</key>
+				<string>3.0</string>
+				<key>CanShowSelectedItemsWhenRun</key>
+				<false/>
+				<key>CanShowWhenRun</key>
+				<true/>
+				<key>Category</key>
+				<array>
+					<string>Photos</string>
+				</array>
+				<key>Class Name</key>
+				<string>AMAppleScriptAction</string>
+				<key>InputUUID</key>
+				<string>0B07ED90-72F6-4373-BA27-8CFF81194B0E</string>
+				<key>Keywords</key>
+				<array/>
+				<key>OutputUUID</key>
+				<string>6A659D6E-C14E-467B-AAB9-2AE9C95D52BA</string>
+				<key>UUID</key>
+				<string>B7026589-C1DE-4750-B284-735AE9CA9A7F</string>
+				<key>UnlocalizedApplications</key>
+				<array>
+					<string>Aperture</string>
+				</array>
+				<key>arguments</key>
+				<dict>
+					<key>0</key>
+					<dict>
+						<key>default value</key>
+						<false/>
+						<key>name</key>
+						<string>replaceAdjustments</string>
+						<key>required</key>
+						<string>0</string>
+						<key>type</key>
+						<string>0</string>
+						<key>uuid</key>
+						<string>0</string>
+					</dict>
+					<key>1</key>
+					<dict>
+						<key>default value</key>
+						<string></string>
+						<key>name</key>
+						<string>chosenSetting</string>
+						<key>required</key>
+						<string>0</string>
+						<key>type</key>
+						<string>0</string>
+						<key>uuid</key>
+						<string>1</string>
+					</dict>
+					<key>2</key>
+					<dict>
+						<key>default value</key>
+						<string></string>
+						<key>name</key>
+						<string>lookupTable</string>
+						<key>required</key>
+						<string>0</string>
+						<key>type</key>
+						<string>0</string>
+						<key>uuid</key>
+						<string>2</string>
+					</dict>
+				</dict>
+				<key>isViewVisible</key>
+				<true/>
+				<key>location</key>
+				<string>597.000000:369.000000</string>
+				<key>nibPath</key>
+				<string>/Applications/Aperture.app/Contents/Library/Automator/Apply Image Adjustment Preset.action/Contents/Resources/English.lproj/main.nib</string>
+			</dict>
+			<key>isViewVisible</key>
+			<true/>
+		</dict>
+		<dict>
+			<key>action</key>
+			<dict>
+				<key>AMAccepts</key>
+				<dict>
+					<key>Container</key>
+					<string>List</string>
+					<key>Optional</key>
+					<false/>
+					<key>Types</key>
+					<array>
+						<string>com.apple.Aperture.image-object</string>
+					</array>
+				</dict>
+				<key>AMActionVersion</key>
+				<string>v.2.0</string>
+				<key>AMApplication</key>
+				<array>
+					<string>Aperture</string>
+				</array>
+				<key>AMParameterProperties</key>
+				<dict>
+					<key>chosenSetting</key>
+					<dict/>
+					<key>destinationPath</key>
+					<dict>
+						<key>isPathPopUp</key>
+						<true/>
+						<key>selectedVariableUUID</key>
+						<string>7EA09749-222F-4CA7-8DE6-FDDA0D34B504</string>
+						<key>variableUUIDsInMenu</key>
+						<array>
+							<string>7EA09749-222F-4CA7-8DE6-FDDA0D34B504</string>
+						</array>
+					</dict>
+					<key>fileNamingPreset</key>
+					<dict/>
+					<key>folderNamingPreset</key>
+					<dict/>
+				</dict>
+				<key>AMProvides</key>
+				<dict>
+					<key>Container</key>
+					<string>List</string>
+					<key>Types</key>
+					<array>
+						<string>com.apple.applescript.alias-object</string>
+					</array>
+				</dict>
+				<key>AMRequiredResources</key>
+				<array>
+					<dict>
+						<key>Display Name</key>
+						<string>Aperture</string>
+						<key>Resource</key>
+						<string>com.apple.Aperture</string>
+						<key>Type</key>
+						<string>application</string>
+						<key>Version</key>
+						<string>2.0</string>
+					</dict>
+				</array>
+				<key>ActionBundlePath</key>
+				<string>/Applications/Aperture.app/Contents/Library/Automator/Export Images.action</string>
+				<key>ActionName</key>
+				<string>Export Versions</string>
+				<key>ActionParameters</key>
+				<dict>
+					<key>chosenSetting</key>
+					<string>JPEG - Original Size</string>
+					<key>destinationPath</key>
+					<string></string>
+					<key>fileNamingPreset</key>
+					<string>Current Version Name</string>
+					<key>folderNamingPreset</key>
+					<string>No folder...</string>
+				</dict>
+				<key>BundleIdentifier</key>
+				<string>com.apple.Aperture.automator.ExportImages</string>
+				<key>CFBundleVersion</key>
+				<string>2.0</string>
+				<key>CanShowSelectedItemsWhenRun</key>
+				<false/>
+				<key>CanShowWhenRun</key>
+				<true/>
+				<key>Category</key>
+				<array>
+					<string>Photos</string>
+				</array>
+				<key>Class Name</key>
+				<string>AMAppleScriptAction</string>
+				<key>InputUUID</key>
+				<string>60D9F955-D4C7-440A-B92E-A901476860E0</string>
+				<key>Keywords</key>
+				<array/>
+				<key>OutputUUID</key>
+				<string>094A526E-EEE3-499A-BB96-6E4ECA70F4F5</string>
+				<key>UUID</key>
+				<string>42C9B21A-983B-4AF8-8F12-1BA76B847E85</string>
+				<key>UnlocalizedApplications</key>
+				<array>
+					<string>Aperture</string>
+				</array>
+				<key>arguments</key>
+				<dict>
+					<key>0</key>
+					<dict>
+						<key>default value</key>
+						<string></string>
+						<key>name</key>
+						<string>fileNamingPreset</string>
+						<key>required</key>
+						<string>0</string>
+						<key>type</key>
+						<string>0</string>
+						<key>uuid</key>
+						<string>0</string>
+					</dict>
+					<key>1</key>
+					<dict>
+						<key>default value</key>
+						<string></string>
+						<key>name</key>
+						<string>chosenSetting</string>
+						<key>required</key>
+						<string>0</string>
+						<key>type</key>
+						<string>0</string>
+						<key>uuid</key>
+						<string>1</string>
+					</dict>
+					<key>2</key>
+					<dict>
+						<key>default value</key>
+						<string></string>
+						<key>name</key>
+						<string>folderNamingPreset</string>
+						<key>required</key>
+						<string>0</string>
+						<key>type</key>
+						<string>0</string>
+						<key>uuid</key>
+						<string>2</string>
+					</dict>
+					<key>3</key>
+					<dict>
+						<key>default value</key>
+						<string>~</string>
+						<key>name</key>
+						<string>destinationPath</string>
+						<key>required</key>
+						<string>0</string>
+						<key>type</key>
+						<string>0</string>
+						<key>uuid</key>
+						<string>3</string>
+					</dict>
+				</dict>
+				<key>isViewVisible</key>
+				<true/>
+				<key>location</key>
+				<string>597.000000:550.000000</string>
+				<key>nibPath</key>
+				<string>/Applications/Aperture.app/Contents/Library/Automator/Export Images.action/Contents/Resources/English.lproj/main.nib</string>
+			</dict>
+			<key>isViewVisible</key>
+			<true/>
+		</dict>
+	</array>
+	<key>connectors</key>
+	<dict>
+		<key>4F30CDDA-33F3-4BF5-94F7-550183DA5A18</key>
+		<dict>
+			<key>from</key>
+			<string>77BC075E-3D7F-48D7-871C-B4288E3B4233 - 77BC075E-3D7F-48D7-871C-B4288E3B4233</string>
+			<key>to</key>
+			<string>B7026589-C1DE-4750-B284-735AE9CA9A7F - B7026589-C1DE-4750-B284-735AE9CA9A7F</string>
+		</dict>
+		<key>969CE637-8049-45DA-AF18-BD3D88D4B926</key>
+		<dict>
+			<key>from</key>
+			<string>B7026589-C1DE-4750-B284-735AE9CA9A7F - B7026589-C1DE-4750-B284-735AE9CA9A7F</string>
+			<key>to</key>
+			<string>42C9B21A-983B-4AF8-8F12-1BA76B847E85 - 42C9B21A-983B-4AF8-8F12-1BA76B847E85</string>
+		</dict>
+	</dict>
+	<key>variables</key>
+	<array>
+		<dict>
+			<key>UUID</key>
+			<string>7EA09749-222F-4CA7-8DE6-FDDA0D34B504</string>
+			<key>identifier</key>
+			<string>com.apple.Automator.Variable.Path</string>
+			<key>name</key>
+			<string>processed_path</string>
+			<key>value</key>
+			<string>~/Desktop</string>
+		</dict>
+	</array>
+	<key>workflowMetaData</key>
+	<dict>
+		<key>workflowTypeIdentifier</key>
+		<string>com.apple.Automator.workflow</string>
+	</dict>
+</dict>
+</plist>
