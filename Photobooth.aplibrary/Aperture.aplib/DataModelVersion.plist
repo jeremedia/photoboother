@@ -58,7 +58,7 @@
 	<key>isIPhotoLibrary</key>
 	<false/>
 	<key>masterCount</key>
-	<integer>11</integer>
+	<integer>0</integer>
 	<key>projectCompatibleBackToVersion</key>
 	<integer>8</integer>
 	<key>projectVersion</key>
@@ -66,6 +66,6 @@
 	<key>touchedByAperture</key>
 	<true/>
 	<key>versionCount</key>
-	<integer>11</integer>
+	<integer>0</integer>
 </dict>
 </plist>
