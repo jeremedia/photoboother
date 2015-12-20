@@ -7,7 +7,6 @@ server_path = ARGV[1] || "http://0.0.0.0:3001/photos/import"
 listen_path= File.expand_path(File.dirname(__FILE__)).split("/lib")[0] + "/public/events"
 
 
-`open #{listen_path}`
 p "Listener Begins..."
 p "Listener Server: #{server_path}"
 p "Listener Folder: #{listen_path}"
@@ -23,7 +22,7 @@ def send_new path_array
   end
 end
 
-  
+
 listener = Listen.to(listen_path) do |modified, added, removed|
   puts "modified absolute path: #{modified}"
   puts "added absolute path: #{added}"

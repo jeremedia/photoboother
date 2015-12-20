@@ -3,7 +3,8 @@
 %p
   %b File:
   = @photo.file
-
-= link_to 'Edit', edit_photo_path(@photo)
-\|
-= link_to 'Back', photos_path
+%p
+  = link_to 'Edit', edit_photo_path(@photo)
+%p
+%p
+  = link_to 'Back', photos_path

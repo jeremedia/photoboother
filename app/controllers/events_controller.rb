@@ -1,48 +1,54 @@
 class EventsController < ApplicationController
-  before_action :set_event, only: [:show, :take, :photobooth, :edit, :update, :destroy]
+  before_action :set_event, only: [:show, :reset, :take, :photobooth, :edit, :update, :destroy]
+
+  def reset
+    @event.photos.destroy_all
+    redirect_to @event
+  end
+
 
 
   def take
-    
+
     event_path = Rails.public_path + "events/#{@event.name}/originals"
-    
-    
+
+
     `automator -i #{event_path} -D path=#{event_path} #{Rails.root.to_s + "/shooter.workflow"}`
-    
+
     render text:"shoot"
-    
+
   end
-  
-  
+
+
   def photobooth
-    
+
     require 'fileutils'
-    
-    
-    
+
+
+
     event_path = Rails.public_path + "events/#{@event.name}/originals"
-    
+
     FileUtils::mkdir_p event_path
-    
-    
-    
+
+
+
     event_path = Rails.public_path + "events/#{@event.name}/processed"
-    
+
     FileUtils::mkdir_p event_path
-    
-    
-    `open #{event_path}`
-    
-    
-    
+
+
+    #`open #{event_path}`
+
+
+
    # `bundle exec ruby lib/listener.rb`
    # `rails runner 'lib/listener.rb'`
-    
-    
+
+
     @photos = @event.photos
   end
-  
-  
+
+
   # GET /events
   # GET /events.json
   def index

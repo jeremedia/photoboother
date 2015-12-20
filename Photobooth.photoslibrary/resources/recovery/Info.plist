@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>DatabaseMinorVersion</key>
+	<integer>1</integer>
+	<key>DatabaseVersion</key>
+	<integer>112</integer>
+	<key>LibrarySchemaVersion</key>
+	<integer>1404</integer>
+	<key>SnapshotComplete</key>
+	<true/>
+	<key>SnapshotCompletedDate</key>
+	<date>2015-12-20T20:29:06Z</date>
+	<key>SnapshotInvalidatedErrorCode</key>
+	<integer>522</integer>
+	<key>SnapshotInvalidatedOnDate</key>
+	<date>2015-12-20T20:29:06Z</date>
+	<key>SnapshotLastAttemptStartDate</key>
+	<date>2015-12-20T20:29:06Z</date>
+	<key>SnapshotTables</key>
+	<dict>
+		<key>RKAdminData</key>
+		<dict>
+			<key>0000000000.lisj</key>
+			<string>6a17d61cf9e2764ee5b7d206272e5ab5b705df10</string>
+		</dict>
+		<key>RKAlbum</key>
+		<dict>
+			<key>0000000000.lisj</key>
+			<string>29a1c1803a8f2bffd13366c9697a4ff85fdc295c</string>
+		</dict>
+		<key>RKCustomSortOrder</key>
+		<dict>
+			<key>0000000000.lisj</key>
+			<string>8b771808ed7bd592fbd6973e3d4faff9aa4db6e0</string>
+		</dict>
+		<key>RKFolder</key>
+		<dict>
+			<key>0000000000.lisj</key>
+			<string>5860edeed56f4635c5cd9ac4ffa3980815973e3d</string>
+		</dict>
+		<key>RKKeyword</key>
+		<dict>
+			<key>0000000000.lisj</key>
+			<string>5f56ca982b637888c11328541fe2a0e748a3b8a8</string>
+		</dict>
+		<key>RKVolume</key>
+		<dict>
+			<key>0000000000.lisj</key>
+			<string>4e150447769f42a6e8dd908ec5ba6a9d476ce2fc</string>
+		</dict>
+	</dict>
+</dict>
+</plist>

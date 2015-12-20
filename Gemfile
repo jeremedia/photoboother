@@ -1,5 +1,5 @@
 source 'https://rubygems.org'
-
+ruby '2.2.4'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.2.3'
@@ -50,3 +50,7 @@ group :development, :test do
 end
 
 gem 'quiet_assets', group: :development
+
+gem 'delayed_job_active_record'
+
+gem "daemons"
